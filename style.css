@@ -1,0 +1,25 @@
+
+#headerpic {
+background-image: url("images/whale.jpg");
+height: 400px;
+background-position: center;
+    background-position-y: -300px;
+}
+
+
+
+
+
+
+
+#navigation{
+    position: relative;
+    bottom: 39px;
+}
+
+
+
+#navigation button{
+    margin: 0 50px;
+    font-size: x-large;
+}
