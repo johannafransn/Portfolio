@@ -1,28 +1,37 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+            crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <title>Johanna</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
 </head>
 <body>
 
 <div id="header">
     <div id="headerpic"></div>
     <div id="navigation">
-        <button>Om Mig</button>
-        <button>Mina Djur</button>
-        <button>Min Familj</button>
+        <button onclick="aboutMe()" name="aboutMe">Om Mig</button>
+        <button onclick="myAnimals()" name="myAnimals">Mina Djur</button>
+        <button onclick="myFamily()" name="myFamily">Min Familj</button>
     </div>
 
 </div>
 
-
+<div id="sites">
 <div>Valkommen till min hemsida har ar allt om mitt liv</div>
-<div>Info om mig, vem jag ar</div>
-<div>Info om vilka djur jag ager, och mina valar.</div>
-<div>Info om min famil, inkl min grymma programmeringssyster!</div>
-
+<div name="aboutMe"   class="site hidden">Info om mig, vem jag ar</div>
+<div name="myAnimals" class="site hidden">Info om vilka djur jag ager, och mina valar.</div>
+<div name="myFamily"  class="site hidden">Info om min famil, inkl min grymma programmeringssyster!</div>
+</div>
 
 </body>
 </html>
